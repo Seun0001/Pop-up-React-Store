@@ -12,3 +12,33 @@ h1 {
 .result-container p {
     font-size: 30px;
 }
+
+body {
+  background: white;
+}
+
+@media (max-width: 765px) {
+  h1 {
+    font-size: 20px;
+  }
+  .round-indicator {
+    font-size: 18px;
+  }
+  .numbers-container {
+    flex-direction: column;
+  }
+
+  .number-button {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  .result-message {
+    font-size: 16px;
+  }
+  body {
+    background-color: rgba(190, 190, 190, 0.7);
+    background-blend-mode: darken;
+  }
+}
