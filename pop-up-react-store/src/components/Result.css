@@ -17,7 +17,7 @@ body {
   background: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 765px) {
   h1 {
     font-size: 20px;
   }
