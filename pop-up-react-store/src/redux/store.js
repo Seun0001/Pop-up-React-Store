@@ -1,6 +1,6 @@
-import { createStore } from "redux";
+import { configureStore } from "redux";
 import gameReducer from "./reducers";
 
-const store = createStore(gameReducer);
+const store = configureStore(gameReducer);
 
 export default store;
